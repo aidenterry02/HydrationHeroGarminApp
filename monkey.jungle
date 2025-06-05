@@ -1,0 +1,10 @@
+project.manifest = manifest.xml
+appType = "watch-app"
+manifest = "resources/manifest.xml"
+output = "bin/HydrationHero.prg"
+privateKey = "developer_key.der"
+sourcePath = "source"
+resourcesPath = "resources"
+languages = en-US
+devices = fenix7, fenix7s, fenix7x
+source = MainApp.mc MainView.mc Utils.mc Locations.mc
