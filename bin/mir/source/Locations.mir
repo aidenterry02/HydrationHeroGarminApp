@@ -1,0 +1,38 @@
+[ @file = "C:\Users\Admin\Documents\Hydration Hero\HydrationHero\source\Locations.mc"; @line = 1; @position = 6; @symbol_constdef = [Locations,1,6,15]; ]
+const Locations;
+[ @file = "C:\Users\Admin\Documents\Hydration Hero\HydrationHero\source\Locations.mc"; @line = 1; ]
+<init> {
+[ "C:\Users\Admin\Documents\Hydration Hero\HydrationHero\source\Locations.mc" 1 6 ]
+    %tmp.1 = newd 2;
+    %tmp.2 = "WATER_SOURCES";
+    %tmp.3 = newa 1;
+    %tmp.4 = newd 2;
+    %tmp.5 = "lat";
+    %tmp.6 = 33.458;
+    %tmp.7 = dup %tmp.4;
+    %tmp.8 = aputv %tmp.7 %tmp.5 %tmp.6;
+    %tmp.9 = "lon";
+    %tmp.10 = -88.792;
+    %tmp.11 = dup %tmp.8;
+    %tmp.12 = aputv %tmp.11 %tmp.9 %tmp.10;
+    %tmp.13 = dup %tmp.3;
+    %tmp.14 = aputv %tmp.13 0 %tmp.12;
+    %tmp.15 = dup %tmp.1;
+    %tmp.16 = aputv %tmp.15 %tmp.2 %tmp.14;
+    %tmp.17 = "LIQUOR_STORES";
+    %tmp.18 = newa 1;
+    %tmp.19 = newd 2;
+    %tmp.20 = "lat";
+    %tmp.21 = 33.451;
+    %tmp.22 = dup %tmp.19;
+    %tmp.23 = aputv %tmp.22 %tmp.20 %tmp.21;
+    %tmp.24 = "lon";
+    %tmp.25 = -88.789;
+    %tmp.26 = dup %tmp.23;
+    %tmp.27 = aputv %tmp.26 %tmp.24 %tmp.25;
+    %tmp.28 = dup %tmp.18;
+    %tmp.29 = aputv %tmp.28 0 %tmp.27;
+    %tmp.30 = dup %tmp.16;
+    %tmp.31 = aputv %tmp.30 %tmp.17 %tmp.29;
+    putv self :Locations %tmp.31;
+}
