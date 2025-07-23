@@ -1,0 +1,10 @@
+<strings>
+    <string id="AppName">Hydration Hero</string>
+    <string id="WaterMode">WATER MODE</string>
+    <string id="LiquorMode">LIQUOR MODE</string>
+    <string id="GettingGPS">Getting GPS...</string>
+    <string id="DistanceUnit">km</string>
+    <string id="MenuLabel1">Menu Item 1</string>
+    <string id="MenuLabel2">Menu Item 2</string>
+    <string id="prompt">Click the menu button</string>
+</strings>

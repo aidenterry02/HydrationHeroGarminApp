@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://developer.garmin.com/downloads/resources.xsd">
+    <bitmap id="launcher_icon" filename="launcher_icon.png" />
+</resources> 
